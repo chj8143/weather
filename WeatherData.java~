@@ -3,13 +3,13 @@ package com.observer.weather;
 import java.util.*;
 
 public class WeatherData implements Subject {
- private ArrayList<Observer> observers;  //<Observer> 추가
+ private ArrayList<Observer> observers;
  private float temperature;
  private float humidity;
  private float pressure;
  
  public WeatherData() {
-  observers = new ArrayList<Observer>();  //<Observer> 추가
+  observers = new ArrayList<Observer>();
  }
  
  public void registerObserver(Observer o) {

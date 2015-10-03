@@ -5,6 +5,7 @@ import java.util.*;
 public class WeatherStation {
 
  public static void main(String[] args) {
+   //ArrayList<WeatherData> weatherData=new ArrayList<WeatherData>();
   WeatherData weatherData = new WeatherData();
  
   CurrentConditionsDisplay currentDisplay = 
